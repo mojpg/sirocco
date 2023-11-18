@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sirocco"
+version = "0.1.0"
+description = "chat with mistral on huggingface"
+authors = ["mozjpg"]
+license = "MPL 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.25.1"
+cement = "^3.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
